@@ -1,0 +1,737 @@
+,Model,model,train_mae,train_rmse,test_mae,test_rmse
+0,LinearRegression_Open_30,LinearRegression(),63.955185497885736,103.64186425191278,61.67685245047058,107.8936126736215
+1,Ridge_Open_30,Ridge(),63.95518552177017,103.6418642519128,61.6768524673301,107.89361277523474
+2,Lasso_Open_30,Lasso(),122.2033834833478,190.203215207733,119.41295184186734,190.9015239266701
+3,RandomForest_Open_30,RandomForestRegressor(),25.51867530056569,41.83601285761285,66.14697774244809,109.81735452948453
+4,GradientBoosting_Open_30,GradientBoostingRegressor(),61.82848045976986,90.39853100295996,77.13218027597618,121.23674549152122
+5,SVR_Open_30,SVR(),3639.5347345134196,5524.98437277291,3534.855911737116,5355.596784589889
+6,KNN_Open_30,KNeighborsRegressor(),51.31176096181048,83.36492273540678,66.45236883942769,104.91188223164396
+7,XGBoost_Open_30,"XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             feature_weights=None, gamma=None, grow_policy=None,
+             importance_type=None, interaction_constraints=None,
+             learning_rate=None, max_bin=None, max_cat_threshold=None,
+             max_cat_to_onehot=None, max_delta_step=None, max_depth=None,
+             max_leaves=None, min_child_weight=None, missing=nan,
+             monotone_constraints=None, multi_strategy=None, n_estimators=None,
+             n_jobs=None, num_parallel_tree=None, ...)",35.45575799361988,48.87147867415424,73.1292997278356,121.2869804928701
+8,LightGBM_Open_30,LGBMRegressor(verbosity=0),53.8106636466672,78.85264598875223,69.87040758220846,114.12027338865816
+9,RNN_Open_30,"<Sequential name=sequential, built=True>",7547.78443708838,9800.333053149552,7031.247445489492,9374.766141573675
+10,LSTM_Open_30,"<Sequential name=sequential_1, built=True>",7791.478467943173,9989.22493284786,7274.9414763846335,9558.900200995848
+11,GRU_Open_30,"<Sequential name=sequential_2, built=True>",7692.166562942873,9911.957651037379,7175.629571343984,9483.536224143392
+12,Bidirectional_LSTM_Open_30,"<Sequential name=sequential_3, built=True>",7702.61634653515,9920.069385954346,7186.079354838991,9491.445414760623
+13,LinearRegression_Open_45,LinearRegression(),63.34413744091698,103.22852579329142,68.57222509663464,110.82877201587104
+14,Ridge_Open_45,Ridge(),63.344137451735705,103.22852579329142,68.57222516589215,110.82877202319817
+15,Lasso_Open_45,Lasso(),131.28152426308674,205.02358230390354,131.22480604710728,205.58687758191382
+16,RandomForest_Open_45,RandomForestRegressor(),25.260620237462465,41.316470052140076,69.50910925039878,112.18792527334823
+17,GradientBoosting_Open_45,GradientBoostingRegressor(),62.085865456057086,90.53415201382727,80.03415813809599,123.31249420563145
+18,SVR_Open_45,SVR(),3622.096723414816,5507.196204903247,3816.3248732436946,5742.741964195233
+19,KNN_Open_45,KNeighborsRegressor(),46.41154350522773,74.71966579509186,60.94245614035092,101.56126228287656
+20,XGBoost_Open_45,"XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             feature_weights=None, gamma=None, grow_policy=None,
+             importance_type=None, interaction_constraints=None,
+             learning_rate=None, max_bin=None, max_cat_threshold=None,
+             max_cat_to_onehot=None, max_delta_step=None, max_depth=None,
+             max_leaves=None, min_child_weight=None, missing=nan,
+             monotone_constraints=None, multi_strategy=None, n_estimators=None,
+             n_jobs=None, num_parallel_tree=None, ...)",32.854723104381954,45.030593325318655,82.64561726693333,135.14963612922955
+21,LightGBM_Open_45,LGBMRegressor(verbosity=0),51.81186775434453,75.4420565421687,73.1019397160438,118.51703265935951
+22,RNN_Open_45,"<Sequential name=sequential_4, built=True>",7498.861324518918,9746.890103399406,7631.158400325989,9985.804604480934
+23,LSTM_Open_45,"<Sequential name=sequential_5, built=True>",7745.928408568222,9938.226826295204,7878.225484533477,10175.861234708389
+24,GRU_Open_45,"<Sequential name=sequential_6, built=True>",7654.717386433725,9867.30174952358,7787.0144624652285,10105.409904131448
+25,Bidirectional_LSTM_Open_45,"<Sequential name=sequential_7, built=True>",7709.615488743313,9909.950379664848,7841.912564807266,10147.773537014775
+26,LinearRegression_Open_60,LinearRegression(),64.11197945014715,103.71755293322252,62.23859376602417,105.4112888177808
+27,Ridge_Open_60,Ridge(),64.11197945823623,103.71755293322258,62.23859368819826,105.41128870834217
+28,Lasso_Open_60,Lasso(),149.23126487612643,230.24170935335238,127.89389047561187,201.98032963306406
+29,RandomForest_Open_60,RandomForestRegressor(),25.612125244270807,41.97307722275713,66.16061182108625,107.22220643382398
+30,GradientBoosting_Open_60,GradientBoostingRegressor(),62.54873039886295,90.88539087914363,75.09355153968565,115.99206461814532
+31,SVR_Open_60,SVR(),3667.4614877614454,5557.244006591206,3495.647660196491,5194.275115532561
+32,KNN_Open_60,KNeighborsRegressor(),44.41798543258129,71.75206276895909,59.09813099041528,92.7504150925495
+33,XGBoost_Open_60,"XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             feature_weights=None, gamma=None, grow_policy=None,
+             importance_type=None, interaction_constraints=None,
+             learning_rate=None, max_bin=None, max_cat_threshold=None,
+             max_cat_to_onehot=None, max_delta_step=None, max_depth=None,
+             max_leaves=None, min_child_weight=None, missing=nan,
+             monotone_constraints=None, multi_strategy=None, n_estimators=None,
+             n_jobs=None, num_parallel_tree=None, ...)",32.480663476978876,43.845725655962134,77.80403561333114,129.3299532029063
+34,LightGBM_Open_60,LGBMRegressor(verbosity=0),50.802767506715135,73.25213446655906,72.26057934982255,120.78923975492194
+35,RNN_Open_60,"<Sequential name=sequential_8, built=True>",7578.127609867185,9834.853789538678,7101.8798429543995,9326.369632823009
+36,LSTM_Open_60,"<Sequential name=sequential_9, built=True>",7850.224709329963,10046.012093111252,7373.976942404847,9535.198433671954
+37,GRU_Open_60,"<Sequential name=sequential_10, built=True>",7763.129822391599,9978.101804926517,7286.882055478812,9468.005244756698
+38,Bidirectional_LSTM_Open_60,"<Sequential name=sequential_11, built=True>",7668.452257159015,9904.619679357364,7192.2044901204945,9395.332811403703
+39,LinearRegression_Open_90,LinearRegression(),64.35457731318377,104.01202051928564,61.91965250437576,100.30884103966902
+40,Ridge_Open_90,Ridge(),64.35457730053987,104.01202051928563,61.91965256553549,100.30884098556749
+41,Lasso_Open_90,Lasso(),158.4847432881869,242.58449739343365,156.58714186907048,232.7214367302143
+42,RandomForest_Open_90,RandomForestRegressor(),25.435361835059016,41.77472277465136,63.54765008025687,103.16581564968739
+43,GradientBoosting_Open_90,GradientBoostingRegressor(),62.4097483600005,91.25023188862419,73.05303164641951,111.20824526693812
+44,SVR_Open_90,SVR(),3670.5314899385216,5547.262379910266,3562.506596400552,5370.0984549786135
+45,KNN_Open_90,KNeighborsRegressor(),44.52387897179581,71.61207225505586,57.85566613162121,88.5452476272305
+46,XGBoost_Open_90,"XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             feature_weights=None, gamma=None, grow_policy=None,
+             importance_type=None, interaction_constraints=None,
+             learning_rate=None, max_bin=None, max_cat_threshold=None,
+             max_cat_to_onehot=None, max_delta_step=None, max_depth=None,
+             max_leaves=None, min_child_weight=None, missing=nan,
+             monotone_constraints=None, multi_strategy=None, n_estimators=None,
+             n_jobs=None, num_parallel_tree=None, ...)",32.126345580052316,43.375199643102626,75.38937631671345,121.15318180024003
+47,LightGBM_Open_90,LGBMRegressor(verbosity=0),49.14771550668814,70.77922271740262,67.18408349087387,99.62254336613401
+48,RNN_Open_90,"<Sequential name=sequential_12, built=True>",7593.113648177845,9838.803317291939,7296.679711590762,9546.43802950975
+49,LSTM_Open_90,"<Sequential name=sequential_13, built=True>",7840.694428502676,10031.109856802848,7544.2604920119375,9736.981596153542
+50,GRU_Open_90,"<Sequential name=sequential_14, built=True>",7771.463867904407,9977.090081399181,7475.029931317325,9683.440334499906
+51,Bidirectional_LSTM_Open_90,"<Sequential name=sequential_15, built=True>",7737.382677568397,9950.56614058203,7440.948741333595,9657.156019339589
+52,LinearRegression_Open_120,LinearRegression(),64.70178600151348,103.9396812674912,61.79841254034239,95.87291300506698
+53,Ridge_Open_120,Ridge(),64.70178597275105,103.93968126749125,61.798412448323965,95.87291290842253
+54,Lasso_Open_120,Lasso(),166.72922769840298,249.2219363479093,159.76406668194178,252.4277413743936
+55,RandomForest_Open_120,RandomForestRegressor(),25.320059103139034,41.34527025577298,62.452057258064755,98.65540810113377
+56,GradientBoosting_Open_120,GradientBoostingRegressor(),62.5484326952505,90.58412391175568,72.2161866024669,108.78539862265079
+57,SVR_Open_120,SVR(),3676.0414760591498,5542.836096774444,3656.2691861648677,5472.425756479056
+58,KNN_Open_120,KNeighborsRegressor(),44.513137219730964,72.34172387025475,57.711048387096795,89.43465596681865
+59,XGBoost_Open_120,"XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             feature_weights=None, gamma=None, grow_policy=None,
+             importance_type=None, interaction_constraints=None,
+             learning_rate=None, max_bin=None, max_cat_threshold=None,
+             max_cat_to_onehot=None, max_delta_step=None, max_depth=None,
+             max_leaves=None, min_child_weight=None, missing=nan,
+             monotone_constraints=None, multi_strategy=None, n_estimators=None,
+             n_jobs=None, num_parallel_tree=None, ...)",29.70249008767166,39.992088236844694,75.09532955046626,117.91957355349534
+60,LightGBM_Open_120,LGBMRegressor(verbosity=0),48.317675107104456,69.29970602612751,65.22191592729058,101.20863575806163
+61,RNN_Open_120,"<Sequential name=sequential_16, built=True>",7629.189702188946,9858.263460992332,7304.802951935799,9620.119457822975
+62,LSTM_Open_120,"<Sequential name=sequential_17, built=True>",7879.238889916391,10053.020860644814,7554.852139959028,9811.337475358763
+63,GRU_Open_120,"<Sequential name=sequential_18, built=True>",7733.605366861798,9939.289457738127,7409.21861660865,9699.642917390025
+64,Bidirectional_LSTM_Open_120,"<Sequential name=sequential_19, built=True>",7775.997334766611,9972.309537053552,7451.610584578975,9732.06311722972
+65,LinearRegression_Open_150,LinearRegression(),64.1821837932777,101.94538100522584,69.86875922103165,112.0000771752274
+66,Ridge_Open_150,Ridge(),64.18218375594269,101.94538100522587,69.86875906873777,112.00007690214088
+67,Lasso_Open_150,Lasso(),163.55419276482937,246.6067250389956,165.92156957197176,246.33943875103597
+68,RandomForest_Open_150,RandomForestRegressor(),25.327716294160133,41.432754089278,71.39140599675859,118.16057532409826
+69,GradientBoosting_Open_150,GradientBoostingRegressor(),62.39333241984792,89.465825978924,78.92407708391782,123.66191970533089
+70,SVR_Open_150,SVR(),3704.856983275203,5576.702538947682,3514.335293759674,5216.282261640773
+71,KNN_Open_150,KNeighborsRegressor(),44.32316330209086,71.67099028398923,61.25421393841165,98.4972049106095
+72,XGBoost_Open_150,"XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             feature_weights=None, gamma=None, grow_policy=None,
+             importance_type=None, interaction_constraints=None,
+             learning_rate=None, max_bin=None, max_cat_threshold=None,
+             max_cat_to_onehot=None, max_delta_step=None, max_depth=None,
+             max_leaves=None, min_child_weight=None, missing=nan,
+             monotone_constraints=None, multi_strategy=None, n_estimators=None,
+             n_jobs=None, num_parallel_tree=None, ...)",30.171687452210396,41.115718665046444,78.22759932606111,122.4339888400722
+73,LightGBM_Open_150,LGBMRegressor(verbosity=0),47.5040021488585,68.14487174434419,70.94186671570583,114.3659896429236
+74,RNN_Open_150,"<Sequential name=sequential_20, built=True>",7670.703660573596,9905.880246990557,7262.243269879852,9431.376388063074
+75,LSTM_Open_150,"<Sequential name=sequential_21, built=True>",7909.814459586058,10092.171893866285,7501.35407015462,9616.704012628643
+76,GRU_Open_150,"<Sequential name=sequential_22, built=True>",7838.941941823596,10036.721555700427,7430.481551129852,9561.523902813795
+77,Bidirectional_LSTM_Open_150,"<Sequential name=sequential_23, built=True>",7885.812560178982,10073.37125699457,7477.352170225171,9597.99347059628
+78,LinearRegression_Open_200,LinearRegression(),64.6493515159418,100.48697381418962,66.63610608376115,123.01245890098701
+79,Ridge_Open_200,Ridge(),64.64935147396776,100.48697381418964,66.63610582303379,123.01245857746572
+80,Lasso_Open_200,Lasso(),166.77419482474068,247.51964881959634,165.46839946243213,248.4071336514963
+81,RandomForest_Open_200,RandomForestRegressor(),25.47402307832098,41.28805343213567,66.99334803921583,119.96666447804814
+82,GradientBoosting_Open_200,GradientBoostingRegressor(),63.0793556463422,90.35181497811966,76.42251897470636,126.480282998727
+83,SVR_Open_200,SVR(),3703.6848775015073,5567.2565506205165,3687.771414326279,5429.733413524633
+84,KNN_Open_200,KNeighborsRegressor(),44.34861711793571,70.45288055903728,60.8787581699346,102.8373021288983
+85,XGBoost_Open_200,"XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             feature_weights=None, gamma=None, grow_policy=None,
+             importance_type=None, interaction_constraints=None,
+             learning_rate=None, max_bin=None, max_cat_threshold=None,
+             max_cat_to_onehot=None, max_delta_step=None, max_depth=None,
+             max_leaves=None, min_child_weight=None, missing=nan,
+             monotone_constraints=None, multi_strategy=None, n_estimators=None,
+             n_jobs=None, num_parallel_tree=None, ...)",28.564692700465944,38.84558731166815,77.75825289059306,134.35011648457342
+86,LightGBM_Open_200,LGBMRegressor(verbosity=0),46.299116712801315,65.32833487925302,68.86283412544364,118.37744872411658
+87,RNN_Open_200,"<Sequential name=sequential_24, built=True>",7695.463016004942,9913.553485536255,7576.848435425602,9765.674022427218
+88,LSTM_Open_200,"<Sequential name=sequential_25, built=True>",7912.845905772145,10083.229740249171,7794.231325117123,9935.280511180816
+89,GRU_Open_200,"<Sequential name=sequential_26, built=True>",7821.167193966754,10011.445847347339,7702.552613481508,9863.522375883245
+90,Bidirectional_LSTM_Open_200,"<Sequential name=sequential_27, built=True>",7819.770684971949,10010.35489701364,7701.156103675193,9862.431858371236
+91,LinearRegression_Open_250,LinearRegression(),65.23613170444187,101.56852427586554,68.45857335299132,105.66543253912695
+92,Ridge_Open_250,Ridge(),65.23613161635731,101.56852427586557,68.45857307986996,105.66543208349992
+93,Lasso_Open_250,Lasso(),222.46549534951325,332.26837755070187,221.47224306872408,341.23977500791926
+94,RandomForest_Open_250,RandomForestRegressor(),25.799619915720136,42.24683314754998,66.70435667215835,105.42925934553796
+95,GradientBoosting_Open_250,GradientBoostingRegressor(),63.17420355447149,90.24606124008072,77.28844914960055,113.96793344327982
+96,SVR_Open_250,SVR(),3731.5968153534377,5588.387966414763,3500.537872811785,5229.43093325006
+97,KNN_Open_250,KNeighborsRegressor(),45.64012641993407,73.31720510494713,56.45034596375614,85.3193804462761
+98,XGBoost_Open_250,"XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             feature_weights=None, gamma=None, grow_policy=None,
+             importance_type=None, interaction_constraints=None,
+             learning_rate=None, max_bin=None, max_cat_threshold=None,
+             max_cat_to_onehot=None, max_delta_step=None, max_depth=None,
+             max_leaves=None, min_child_weight=None, missing=nan,
+             monotone_constraints=None, multi_strategy=None, n_estimators=None,
+             n_jobs=None, num_parallel_tree=None, ...)",29.23683429409095,39.4066242809863,76.35421866553617,118.94327745450623
+99,LightGBM_Open_250,LGBMRegressor(verbosity=0),46.68684927547326,66.83273908774846,66.28097189805403,100.92879671767164
+100,RNN_Open_250,"<Sequential name=sequential_28, built=True>",7785.980613371337,9990.160083154295,7345.492084222884,9489.051394646003
+101,LSTM_Open_250,"<Sequential name=sequential_29, built=True>",8040.212203642333,10189.544477298983,7599.72367449388,9687.189599647309
+102,GRU_Open_250,"<Sequential name=sequential_30, built=True>",7924.988120695556,10098.873258360101,7484.499591547103,9597.060828541255
+103,Bidirectional_LSTM_Open_250,"<Sequential name=sequential_31, built=True>",7916.819848673629,10092.464558556705,7476.3313193307085,9590.691965937982
+104,LinearRegression_Close_30,LinearRegression(),61.06409329406669,99.92654316614278,58.05763657675109,95.85892423203018
+105,Ridge_Close_30,Ridge(),61.06409332036474,99.92654316614276,58.057636422865386,95.85892389836995
+106,Lasso_Close_30,Lasso(),123.08067110058843,189.6025428366744,116.36245972421631,185.70554734048216
+107,RandomForest_Close_30,RandomForestRegressor(),24.59281471004255,40.59615007844227,60.68936883942771,95.86708409721302
+108,GradientBoosting_Close_30,GradientBoostingRegressor(),60.265221085592515,88.61949177518103,69.39884665861662,105.2387710531361
+109,SVR_Close_30,SVR(),3637.117247101653,5522.618727077236,3531.404338969672,5348.908050783989
+110,KNN_Close_30,KNeighborsRegressor(),50.06224363507781,81.39453640180258,62.737869634340214,95.44422247478144
+111,XGBoost_Close_30,"XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             feature_weights=None, gamma=None, grow_policy=None,
+             importance_type=None, interaction_constraints=None,
+             learning_rate=None, max_bin=None, max_cat_threshold=None,
+             max_cat_to_onehot=None, max_delta_step=None, max_depth=None,
+             max_leaves=None, min_child_weight=None, missing=nan,
+             monotone_constraints=None, multi_strategy=None, n_estimators=None,
+             n_jobs=None, num_parallel_tree=None, ...)",34.827848990735774,48.121522157859985,69.97601681271114,107.09420294677018
+112,LightGBM_Close_30,LGBMRegressor(verbosity=0),52.75086976002592,77.28453333594818,61.86658093011623,96.24672808401601
+113,RNN_Close_30,"<Sequential name=sequential_32, built=True>",7547.775017291856,9798.139712142849,7026.556090755492,9366.81583315196
+114,LSTM_Close_30,"<Sequential name=sequential_33, built=True>",7833.740491860321,10020.086036639377,7312.521565470975,9583.199882165645
+115,GRU_Close_30,"<Sequential name=sequential_34, built=True>",7748.314692916762,9953.442351747719,7227.095766809217,9518.175326072529
+116,Bidirectional_LSTM_Close_30,"<Sequential name=sequential_35, built=True>",7682.546124599948,9902.330483454782,7161.327198488268,9468.33435925174
+117,LinearRegression_Close_45,LinearRegression(),61.04948906790236,98.69995629023039,62.48266109784273,104.84832454277583
+118,Ridge_Close_45,Ridge(),61.049489055199366,98.6999562902304,62.48266103896551,104.84832432735297
+119,Lasso_Close_45,Lasso(),132.37690651190033,205.00170317047915,127.0161991525509,201.94880918754745
+120,RandomForest_Close_45,RandomForestRegressor(),24.148650806308677,39.2547431776793,64.58325039872399,104.02918626708355
+121,GradientBoosting_Close_45,GradientBoostingRegressor(),59.4308039201571,86.27509128192733,74.23581343176468,115.71881724304605
+122,SVR_Close_45,SVR(),3618.66227599184,5503.16840165785,3812.625602609059,5741.167448989826
+123,KNN_Close_45,KNeighborsRegressor(),44.95251461988306,72.414320144365,59.24092503987238,97.67323347835895
+124,XGBoost_Close_45,"XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             feature_weights=None, gamma=None, grow_policy=None,
+             importance_type=None, interaction_constraints=None,
+             learning_rate=None, max_bin=None, max_cat_threshold=None,
+             max_cat_to_onehot=None, max_delta_step=None, max_depth=None,
+             max_leaves=None, min_child_weight=None, missing=nan,
+             monotone_constraints=None, multi_strategy=None, n_estimators=None,
+             n_jobs=None, num_parallel_tree=None, ...)",33.05204712108751,45.21795072086551,74.2420159980251,118.56276839382643
+125,LightGBM_Close_45,LGBMRegressor(verbosity=0),50.36951593197783,73.3874230166624,68.09663749280239,107.73095380288457
+126,RNN_Close_45,"<Sequential name=sequential_36, built=True>",7496.666098153876,9742.67651201401,7629.174311869984,9983.138161886587
+127,LSTM_Close_45,"<Sequential name=sequential_37, built=True>",7747.758635956248,9937.17801489698,7880.266849745365,10176.313305346268
+128,GRU_Close_45,"<Sequential name=sequential_38, built=True>",7629.689047372626,9845.3998390181,7762.197261088734,10085.160048232892
+129,Bidirectional_LSTM_Close_45,"<Sequential name=sequential_39, built=True>",7674.122811611133,9879.873679471653,7806.631025192041,10119.398935074447
+130,LinearRegression_Close_60,LinearRegression(),61.15521606053033,99.36843034213678,61.633383752257444,98.27504615753072
+131,Ridge_Close_60,Ridge(),61.15521605683627,99.36843034213683,61.633383731299496,98.27504621418544
+132,Lasso_Close_60,Lasso(),148.98675660842673,228.894680997438,129.75525225882274,198.04575310201037
+133,RandomForest_Close_60,RandomForestRegressor(),24.192396429205854,39.141996489792376,65.25443051118214,102.73064318656448
+134,GradientBoosting_Close_60,GradientBoostingRegressor(),60.46667730108038,87.41166287160425,75.97071908189649,114.9314644015542
+135,SVR_Close_60,SVR(),3664.487922664006,5554.286255277084,3489.5149284124186,5189.865608427753
+136,KNN_Close_60,KNeighborsRegressor(),43.26274649138392,68.94308101592232,56.72471246006394,89.59035682985619
+137,XGBoost_Close_60,"XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             feature_weights=None, gamma=None, grow_policy=None,
+             importance_type=None, interaction_constraints=None,
+             learning_rate=None, max_bin=None, max_cat_threshold=None,
+             max_cat_to_onehot=None, max_delta_step=None, max_depth=None,
+             max_leaves=None, min_child_weight=None, missing=nan,
+             monotone_constraints=None, multi_strategy=None, n_estimators=None,
+             n_jobs=None, num_parallel_tree=None, ...)",30.564083678516116,41.56189345512412,71.36481194541861,116.07406564336175
+138,LightGBM_Close_60,LGBMRegressor(verbosity=0),49.03016987633086,70.83406534782036,70.61170538625629,110.96165648977218
+139,RNN_Close_60,"<Sequential name=sequential_40, built=True>",7574.074877389706,9829.382443316055,7092.069619019724,9315.79119136223
+140,LSTM_Close_60,"<Sequential name=sequential_41, built=True>",7820.959386639129,10020.855984111415,7338.9541285846935,9505.091356666424
+141,GRU_Close_60,"<Sequential name=sequential_42, built=True>",7732.637896063839,9952.077059692452,7250.632637623552,9437.064569470804
+142,Bidirectional_LSTM_Close_60,"<Sequential name=sequential_43, built=True>",7786.502138622972,9993.986418097615,7304.496880201637,9478.51194624736
+143,LinearRegression_Close_90,LinearRegression(),61.54807315172549,99.10928093463163,59.3667190256945,96.0514780061101
+144,Ridge_Close_90,Ridge(),61.54807313090207,99.1092809346317,59.366718871199154,96.05147776392693
+145,Lasso_Close_90,Lasso(),158.15169905954752,241.04091469748064,151.25324433087457,218.74988663916506
+146,RandomForest_Close_90,RandomForestRegressor(),24.336000803284517,40.048336914537195,59.22340449438234,98.42243372661217
+147,GradientBoosting_Close_90,GradientBoostingRegressor(),60.94437777275771,87.78152900934798,69.28501003305695,107.3949138763358
+148,SVR_Close_90,SVR(),3665.431446523159,5542.201594060495,3563.1908586664217,5375.50819264497
+149,KNN_Close_90,KNeighborsRegressor(),43.12410389146734,68.89124787745408,55.42781701444618,85.30038314972305
+150,XGBoost_Close_90,"XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             feature_weights=None, gamma=None, grow_policy=None,
+             importance_type=None, interaction_constraints=None,
+             learning_rate=None, max_bin=None, max_cat_threshold=None,
+             max_cat_to_onehot=None, max_delta_step=None, max_depth=None,
+             max_leaves=None, min_child_weight=None, missing=nan,
+             monotone_constraints=None, multi_strategy=None, n_estimators=None,
+             n_jobs=None, num_parallel_tree=None, ...)",30.060056630427063,40.95142885089774,71.78270228402762,111.7860864521571
+151,LightGBM_Close_90,LGBMRegressor(verbosity=0),47.82777795841029,69.24851678158645,63.79452327325176,102.56935209932307
+152,RNN_Close_90,"<Sequential name=sequential_44, built=True>",7587.367847825868,9831.293993843587,7290.129757783499,9545.104568207884
+153,LSTM_Close_90,"<Sequential name=sequential_45, built=True>",7833.646489451367,10022.584898351579,7536.408399681714,9734.499518937391
+154,GRU_Close_90,"<Sequential name=sequential_46, built=True>",7746.588962938173,9954.688910050318,7449.350872895804,9667.256992560817
+155,Bidirectional_LSTM_Close_90,"<Sequential name=sequential_47, built=True>",7708.371853527654,9924.977947561423,7411.133764011633,9637.838600527451
+156,LinearRegression_Close_120,LinearRegression(),60.88109836238145,98.05069365044409,63.61127783559364,103.14889833220879
+157,Ridge_Close_120,Ridge(),60.88109835078446,98.0506936504441,63.61127759165109,103.14889807119562
+158,Lasso_Close_120,Lasso(),166.91184915215902,247.68773254911767,162.72488077081545,259.1397548957374
+159,RandomForest_Close_120,RandomForestRegressor(),24.220482152466392,39.45555568036508,63.42105080645178,103.27875310016022
+160,GradientBoosting_Close_120,GradientBoostingRegressor(),60.84210241545919,87.6933558868189,72.30929660065512,110.2800790641757
+161,SVR_Close_120,SVR(),3672.5993327653014,5540.925624082869,3645.147506543486,5460.423771729591
+162,KNN_Close_120,KNeighborsRegressor(),43.45284843049328,69.21504424624005,58.918967741935525,93.03401991363332
+163,XGBoost_Close_120,"XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             feature_weights=None, gamma=None, grow_policy=None,
+             importance_type=None, interaction_constraints=None,
+             learning_rate=None, max_bin=None, max_cat_threshold=None,
+             max_cat_to_onehot=None, max_delta_step=None, max_depth=None,
+             max_leaves=None, min_child_weight=None, missing=nan,
+             monotone_constraints=None, multi_strategy=None, n_estimators=None,
+             n_jobs=None, num_parallel_tree=None, ...)",29.89065542233043,40.444310963481335,74.60755239179059,119.22929520425357
+164,LightGBM_Close_120,LGBMRegressor(verbosity=0),46.62631797512786,66.56666363262772,66.95312411895074,109.85341611388499
+165,RNN_Close_120,"<Sequential name=sequential_48, built=True>",7623.807982093435,9852.343774308534,7299.089160825668,9607.474801297321
+166,LSTM_Close_120,"<Sequential name=sequential_49, built=True>",7875.564565140113,10048.42012132454,7550.8457438241285,9800.109231150549
+167,GRU_Close_120,"<Sequential name=sequential_50, built=True>",7755.819226775439,9954.846136052196,7431.100405248827,9708.147234683966
+168,Bidirectional_LSTM_Close_120,"<Sequential name=sequential_51, built=True>",7764.009762431466,9961.22870517641,7439.290940984911,9714.41810980469
+169,LinearRegression_Close_150,LinearRegression(),61.31159075785148,97.39031250569192,66.15796283078537,107.52547709578381
+170,Ridge_Close_150,Ridge(),61.31159070990227,97.39031250569201,66.15796265272424,107.5254768119944
+171,Lasso_Close_150,Lasso(),164.25394938071474,245.55161295460678,164.70142778261604,248.24729195641925
+172,RandomForest_Close_150,RandomForestRegressor(),24.324832822638797,39.94112729605289,65.46224959481397,107.532206780791
+173,GradientBoosting_Close_150,GradientBoostingRegressor(),60.93085495658622,87.31878496201338,73.86284084009232,114.57864592131799
+174,SVR_Close_150,SVR(),3700.8175789471234,5572.494742657354,3510.0027304979153,5207.5274733814285
+175,KNN_Close_150,KNeighborsRegressor(),43.43682227829851,69.52128391283476,57.14168557536462,95.56108806595952
+176,XGBoost_Close_150,"XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             feature_weights=None, gamma=None, grow_policy=None,
+             importance_type=None, interaction_constraints=None,
+             learning_rate=None, max_bin=None, max_cat_threshold=None,
+             max_cat_to_onehot=None, max_delta_step=None, max_depth=None,
+             max_leaves=None, min_child_weight=None, missing=nan,
+             monotone_constraints=None, multi_strategy=None, n_estimators=None,
+             n_jobs=None, num_parallel_tree=None, ...)",28.852585899391528,39.270942369357485,79.07887623692642,128.61807973186356
+177,LightGBM_Close_150,LGBMRegressor(verbosity=0),45.62261464462605,65.20640252068584,66.49530463271687,106.16212971006264
+178,RNN_Close_150,"<Sequential name=sequential_52, built=True>",7662.858150340811,9897.671796342356,7253.911760604092,9419.989444530762
+179,LSTM_Close_150,"<Sequential name=sequential_53, built=True>",7910.812679154906,10090.860676893022,7501.866289425051,9612.229872859214
+180,GRU_Close_150,"<Sequential name=sequential_54, built=True>",7843.773144210013,10038.390761745508,7434.826754557951,9560.000740893844
+181,Bidirectional_LSTM_Close_150,"<Sequential name=sequential_55, built=True>",7800.649155668604,10004.730837829215,7391.702766905651,9526.501720020944
+182,LinearRegression_Close_200,LinearRegression(),61.289256058646785,95.78772643214488,65.9126972051455,118.18261345003773
+183,Ridge_Close_200,Ridge(),61.28925598286128,95.78772643214492,65.91269711305785,118.18261320165269
+184,Lasso_Close_200,Lasso(),167.53582088728666,248.45147634251717,168.79941116595472,250.49106636975094
+185,RandomForest_Close_200,RandomForestRegressor(),24.47402044339435,39.47859815133054,67.85591993464081,128.5968132339339
+186,GradientBoosting_Close_200,GradientBoostingRegressor(),60.62611854825857,86.29701419902663,79.96604890531725,133.80484023401127
+187,SVR_Close_200,SVR(),3700.1300007399377,5563.20664839063,3682.506301749649,5429.065100707375
+188,KNN_Close_200,KNeighborsRegressor(),43.250443394512104,68.07922525032939,57.04040849673207,95.45062065195368
+189,XGBoost_Close_200,"XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             feature_weights=None, gamma=None, grow_policy=None,
+             importance_type=None, interaction_constraints=None,
+             learning_rate=None, max_bin=None, max_cat_threshold=None,
+             max_cat_to_onehot=None, max_delta_step=None, max_depth=None,
+             max_leaves=None, min_child_weight=None, missing=nan,
+             monotone_constraints=None, multi_strategy=None, n_estimators=None,
+             n_jobs=None, num_parallel_tree=None, ...)",29.112387827520212,39.57038068364725,75.71170468797872,140.54565533489833
+190,LightGBM_Close_200,LGBMRegressor(verbosity=0),44.98853531414407,63.57533031518634,68.35577046265253,126.10576552309803
+191,RNN_Close_200,"<Sequential name=sequential_56, built=True>",7690.464144994508,9907.131973252694,7575.3941740547125,9763.39949352129
+192,LSTM_Close_200,"<Sequential name=sequential_57, built=True>",7943.887355770753,10105.116104346858,7828.817384946735,9961.312886077667
+193,GRU_Close_200,"<Sequential name=sequential_58, built=True>",7855.622897435915,10035.877454249785,7740.552926496119,9892.094438776721
+194,Bidirectional_LSTM_Close_200,"<Sequential name=sequential_59, built=True>",7871.444052846063,10048.266347839573,7756.374081769955,9904.479371805954
+195,LinearRegression_Close_250,LinearRegression(),61.625298125360274,96.82620914184972,68.60528603388238,105.06266911786197
+196,Ridge_Close_250,Ridge(),61.62529804082218,96.8262091418497,68.60528579577141,105.06266887096021
+197,Lasso_Close_250,Lasso(),221.51691381983858,331.082885510803,223.17628950798112,344.63856867796426
+198,RandomForest_Close_250,RandomForestRegressor(),24.474776291681998,40.09008605096702,65.8026680395387,102.61568943694293
+199,GradientBoosting_Close_250,GradientBoostingRegressor(),60.78753940335448,86.93167747057483,76.45219605106232,110.94874149745111
+200,SVR_Close_250,SVR(),3727.9462953163,5583.119526025327,3490.8495411665663,5218.403880605144
+201,KNN_Close_250,KNeighborsRegressor(),44.072539391718585,70.27147867708169,57.53861614497534,87.78683374090738
+202,XGBoost_Close_250,"XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             feature_weights=None, gamma=None, grow_policy=None,
+             importance_type=None, interaction_constraints=None,
+             learning_rate=None, max_bin=None, max_cat_threshold=None,
+             max_cat_to_onehot=None, max_delta_step=None, max_depth=None,
+             max_leaves=None, min_child_weight=None, missing=nan,
+             monotone_constraints=None, multi_strategy=None, n_estimators=None,
+             n_jobs=None, num_parallel_tree=None, ...)",27.641637953230205,37.71630470599442,73.93347218244828,110.68111839098674
+203,LightGBM_Close_250,LGBMRegressor(verbosity=0),44.809328563866266,63.60986714144626,69.03580697623576,105.02383662690957
+204,RNN_Close_250,"<Sequential name=sequential_60, built=True>",7782.367553525305,9985.249692866413,7335.965691273925,9476.295236798784
+205,LSTM_Close_250,"<Sequential name=sequential_61, built=True>",8047.96914067057,10193.614371500285,7601.567278522323,9683.367382089427
+206,GRU_Close_250,"<Sequential name=sequential_62, built=True>",7917.611068542749,10091.01242311174,7471.209206288573,9581.37494285441
+207,Bidirectional_LSTM_Close_250,"<Sequential name=sequential_63, built=True>",7930.734817383551,10101.312856923938,7484.332955118146,9591.611886112585
+208,LinearRegression_High_30,LinearRegression(),51.70891860251159,84.33452382633895,46.97174365244455,81.33601459176855
+209,Ridge_High_30,Ridge(),51.708918653828476,84.334523826339,46.97174376787704,81.33601490226725
+210,Lasso_High_30,Lasso(),121.77593211091174,185.82418913341044,117.4999249380114,186.68810931433273
+211,RandomForest_High_30,RandomForestRegressor(),20.986665045968984,34.615240932093975,52.18642209856944,87.226383955817
+212,GradientBoosting_High_30,GradientBoostingRegressor(),53.49042219638438,77.8549023581694,63.15346680539972,97.75622861152839
+213,SVR_High_30,SVR(),3656.86475983068,5549.223510043746,3552.1282483032433,5377.452348667944
+214,KNN_High_30,KNeighborsRegressor(),42.64642857142855,68.66916875356445,56.93303656597774,89.679421194004
+215,XGBoost_High_30,"XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             feature_weights=None, gamma=None, grow_policy=None,
+             importance_type=None, interaction_constraints=None,
+             learning_rate=None, max_bin=None, max_cat_threshold=None,
+             max_cat_to_onehot=None, max_delta_step=None, max_depth=None,
+             max_leaves=None, min_child_weight=None, missing=nan,
+             monotone_constraints=None, multi_strategy=None, n_estimators=None,
+             n_jobs=None, num_parallel_tree=None, ...)",30.635173248334173,42.24545845687806,60.64511790556066,100.75931631732048
+216,LightGBM_High_30,LGBMRegressor(verbosity=0),46.17077569943641,67.709515913289,56.11088272319872,94.39302674939213
+217,RNN_High_30,"<Sequential name=sequential_64, built=True>",7594.434327674013,9850.441802270978,7075.249146342316,9421.345706965001
+218,LSTM_High_30,"<Sequential name=sequential_65, built=True>",7857.703395187399,10054.813452590308,7338.518214006531,9620.626486953994
+219,GRU_High_30,"<Sequential name=sequential_66, built=True>",7751.486222815614,9972.026354010219,7232.301041483917,9539.852346969503
+220,Bidirectional_LSTM_High_30,"<Sequential name=sequential_67, built=True>",7693.950458040466,9927.368461390524,7174.765276968613,9496.307766724049
+221,LinearRegression_High_45,LinearRegression(),51.0391329616768,83.61643681288909,53.44070087134387,87.04724409415772
+222,Ridge_High_45,Ridge(),51.03913296068505,83.61643681288916,53.44070066853854,87.04724349820148
+223,Lasso_High_45,Lasso(),127.18027238564888,195.6220951142437,124.69104422997509,195.63311980202488
+224,RandomForest_High_45,RandomForestRegressor(),20.735475633528214,34.085765881346425,55.54754944178634,87.6861886359514
+225,GradientBoosting_High_45,GradientBoostingRegressor(),53.79528261732357,77.67793153837854,64.9727643235964,97.67818526837863
+226,SVR_High_45,SVR(),3638.303848851598,5531.241026845224,3834.6067922869806,5772.335772113684
+227,KNN_High_45,KNeighborsRegressor(),38.32932659932659,61.67294384980487,52.42652312599681,86.52092739351271
+228,XGBoost_High_45,"XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             feature_weights=None, gamma=None, grow_policy=None,
+             importance_type=None, interaction_constraints=None,
+             learning_rate=None, max_bin=None, max_cat_threshold=None,
+             max_cat_to_onehot=None, max_delta_step=None, max_depth=None,
+             max_leaves=None, min_child_weight=None, missing=nan,
+             monotone_constraints=None, multi_strategy=None, n_estimators=None,
+             n_jobs=None, num_parallel_tree=None, ...)",28.75901875716457,39.61387729802071,63.19081832666715,97.02231252667589
+229,LightGBM_High_45,LGBMRegressor(verbosity=0),44.42348998121195,65.51645471817768,59.65292418394941,93.47590188655141
+230,RNN_High_45,"<Sequential name=sequential_68, built=True>",7542.952762112845,9794.603604899805,7675.569694584751,10036.969177600795
+231,LSTM_High_45,"<Sequential name=sequential_69, built=True>",7768.72306457525,9969.51259845896,7901.339997085011,10210.658836512792
+232,GRU_High_45,"<Sequential name=sequential_70, built=True>",7733.05562163966,9941.74394422871,7865.672554106158,10183.083269017969
+233,Bidirectional_LSTM_High_45,"<Sequential name=sequential_71, built=True>",7721.279895924297,9932.587106496812,7853.896828396203,10173.990147326916
+234,LinearRegression_High_60,LinearRegression(),51.52222468463129,84.22372210941079,49.883383236509104,80.41709862413023
+235,Ridge_High_60,Ridge(),51.52222470932264,84.22372210941087,49.88338327056588,80.41709879522506
+236,Lasso_High_60,Lasso(),148.03533106411118,224.93066274237324,128.54084510791623,198.61080128387624
+237,RandomForest_High_60,RandomForestRegressor(),20.80176878664053,34.372162908484846,54.08688258785952,87.01030796180113
+238,GradientBoosting_High_60,GradientBoostingRegressor(),52.82086947941509,75.62412043613598,63.22669966378815,93.62873772479847
+239,SVR_High_60,SVR(),3683.91879287979,5581.33315028437,3509.913301541554,5215.770124071541
+240,KNN_High_60,KNeighborsRegressor(),36.85089891632618,58.3335888587827,52.81908945686901,82.674611689751
+241,XGBoost_High_60,"XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             feature_weights=None, gamma=None, grow_policy=None,
+             importance_type=None, interaction_constraints=None,
+             learning_rate=None, max_bin=None, max_cat_threshold=None,
+             max_cat_to_onehot=None, max_delta_step=None, max_depth=None,
+             max_leaves=None, min_child_weight=None, missing=nan,
+             monotone_constraints=None, multi_strategy=None, n_estimators=None,
+             n_jobs=None, num_parallel_tree=None, ...)",28.272810046883325,38.97919489318345,62.81064821675941,100.13935656929804
+242,LightGBM_High_60,LGBMRegressor(verbosity=0),42.8870304245426,62.301911517998015,58.306428911290794,94.20885617298283
+243,RNN_High_60,"<Sequential name=sequential_72, built=True>",7623.038191471178,9883.6627517466,7141.528378286149,9369.82313340628
+244,LSTM_High_60,"<Sequential name=sequential_73, built=True>",7860.780914657954,10068.1654082163,7379.271101598771,9552.266743637045
+245,GRU_High_60,"<Sequential name=sequential_74, built=True>",7770.94700494774,9998.184608984837,7289.437191762711,9483.040258593366
+246,Bidirectional_LSTM_High_60,"<Sequential name=sequential_75, built=True>",7781.063812151767,10006.049777711134,7299.553999255489,9490.81906594546
+247,LinearRegression_High_90,LinearRegression(),51.720831925428655,83.80633800810683,49.204647140864466,81.59071448164079
+248,Ridge_High_90,Ridge(),51.72083191017827,83.80633800810685,49.204647081309204,81.59071458620694
+249,Lasso_High_90,Lasso(),155.78511438342588,235.26064773317106,152.26410286835286,223.21937865790827
+250,RandomForest_High_90,RandomForestRegressor(),20.73367368796846,34.11371192883109,51.54774719101154,86.37162724851206
+251,GradientBoosting_High_90,GradientBoostingRegressor(),53.62047372241447,76.74998583739053,65.2587275840793,99.4192967673037
+252,SVR_High_90,SVR(),3685.557621879296,5569.7890393873895,3576.6852513399726,5391.33823387753
+253,KNN_High_90,KNeighborsRegressor(),36.929139593002496,58.769966157340505,48.79014446227931,74.20484820380837
+254,XGBoost_High_90,"XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             feature_weights=None, gamma=None, grow_policy=None,
+             importance_type=None, interaction_constraints=None,
+             learning_rate=None, max_bin=None, max_cat_threshold=None,
+             max_cat_to_onehot=None, max_delta_step=None, max_depth=None,
+             max_leaves=None, min_child_weight=None, missing=nan,
+             monotone_constraints=None, multi_strategy=None, n_estimators=None,
+             n_jobs=None, num_parallel_tree=None, ...)",27.00518614262693,37.23149950590324,65.920275584997,109.63280745997324
+255,LightGBM_High_90,LGBMRegressor(verbosity=0),41.525462522177754,60.25738873373724,56.99230554551237,87.92284935112488
+256,RNN_High_90,"<Sequential name=sequential_76, built=True>",7638.58413769723,9887.99032244507,7338.103077719798,9592.211619365851
+257,LSTM_High_90,"<Sequential name=sequential_77, built=True>",7906.014384365661,10096.011509646492,7605.53332498223,9798.311287730025
+258,GRU_High_90,"<Sequential name=sequential_78, built=True>",7776.860078553837,9995.195728783028,7476.379018885827,9698.402455511716
+259,Bidirectional_LSTM_High_90,"<Sequential name=sequential_79, built=True>",7759.06944355963,9981.359808013136,7458.588383701871,9684.694504544672
+260,LinearRegression_High_120,LinearRegression(),51.78261611784349,83.48351221993421,51.55371569128839,81.08695112697629
+261,Ridge_High_120,Ridge(),51.78261600367798,83.48351221993431,51.55371535222858,81.08695074292656
+262,Lasso_High_120,Lasso(),166.16324052588737,244.41492694365195,162.7069953275616,248.98158671513187
+263,RandomForest_High_120,RandomForestRegressor(),20.645793452914713,34.28404494109069,54.278398387096544,85.60427807826869
+264,GradientBoosting_High_120,GradientBoostingRegressor(),54.38903909904219,77.71696005310405,63.212295605396726,93.20853005713344
+265,SVR_High_120,SVR(),3691.7715990622396,5565.226805512138,3670.3008663543874,5494.329222348786
+266,KNN_High_120,KNeighborsRegressor(),37.36709058295961,59.647901742609164,49.23758064516135,75.85670431807598
+267,XGBoost_High_120,"XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             feature_weights=None, gamma=None, grow_policy=None,
+             importance_type=None, interaction_constraints=None,
+             learning_rate=None, max_bin=None, max_cat_threshold=None,
+             max_cat_to_onehot=None, max_delta_step=None, max_depth=None,
+             max_leaves=None, min_child_weight=None, missing=nan,
+             monotone_constraints=None, multi_strategy=None, n_estimators=None,
+             n_jobs=None, num_parallel_tree=None, ...)",26.20574218312079,35.88961460742356,61.05285317697837,94.93185587419046
+268,LightGBM_High_120,LGBMRegressor(verbosity=0),40.86645681051228,58.724524825442124,54.507496951091674,81.78927103037526
+269,RNN_High_120,"<Sequential name=sequential_80, built=True>",7671.684359814016,9905.220780289508,7347.183065658078,9666.300479018591
+270,LSTM_High_120,"<Sequential name=sequential_81, built=True>",7888.012301708547,10073.6982216845,7563.511007552609,9831.732538660299
+271,GRU_High_120,"<Sequential name=sequential_82, built=True>",7805.209491072445,10008.993605189511,7480.708196982107,9768.175933993274
+272,Bidirectional_LSTM_High_120,"<Sequential name=sequential_83, built=True>",7820.64079632979,10021.031895464066,7496.1395021106355,9779.998639140227
+273,LinearRegression_High_150,LinearRegression(),51.22817129669799,81.69801943451432,55.80260476832472,94.76296012827483
+274,Ridge_High_150,Ridge(),51.22817118002974,81.69801943451435,55.80260450938342,94.7629598793714
+275,Lasso_High_150,Lasso(),162.37782471342112,240.51081233882803,163.50853271024874,241.6226539821823
+276,RandomForest_High_150,RandomForestRegressor(),20.70829325883196,34.13420612534429,58.053093192869,97.60425166451869
+277,GradientBoosting_High_150,GradientBoostingRegressor(),53.757220892579355,76.69313726093768,70.14917653491176,109.61933539348506
+278,SVR_High_150,SVR(),3720.4448904483443,5597.697304744865,3531.8344960731774,5235.949984224959
+279,KNN_High_150,KNeighborsRegressor(),36.99149783705839,59.12586106520152,51.39956239870335,83.66788990293918
+280,XGBoost_High_150,"XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             feature_weights=None, gamma=None, grow_policy=None,
+             importance_type=None, interaction_constraints=None,
+             learning_rate=None, max_bin=None, max_cat_threshold=None,
+             max_cat_to_onehot=None, max_delta_step=None, max_depth=None,
+             max_leaves=None, min_child_weight=None, missing=nan,
+             monotone_constraints=None, multi_strategy=None, n_estimators=None,
+             n_jobs=None, num_parallel_tree=None, ...)",26.262589563701162,35.925257756697384,66.00859547125077,108.64094450265785
+281,LightGBM_High_150,LGBMRegressor(verbosity=0),40.22162517633463,57.341507353949694,60.323546160914276,101.05078896966592
+282,RNN_High_150,"<Sequential name=sequential_84, built=True>",7715.759280204085,9954.820252757798,7305.462534682214,9478.095190593442
+283,LSTM_High_150,"<Sequential name=sequential_85, built=True>",7940.558947246197,10130.053375665195,7530.262201595461,9652.427385224108
+284,GRU_High_150,"<Sequential name=sequential_86, built=True>",7880.457979253151,10083.011602205128,7470.161233495777,9605.613695433442
+285,Bidirectional_LSTM_High_150,"<Sequential name=sequential_87, built=True>",7875.780491199782,10079.356295055686,7465.483745635542,9601.97652238974
+286,LinearRegression_High_200,LinearRegression(),51.760883877470505,81.52649920695907,54.44823128836268,96.3270320617275
+287,Ridge_High_200,Ridge(),51.76088379241896,81.52649920695913,54.448230745263025,96.32703187449019
+288,Lasso_High_200,Lasso(),169.58636927662351,250.60966504223828,167.75703589991096,243.90924323503913
+289,RandomForest_High_200,RandomForestRegressor(),20.739534163183613,33.73204975187217,57.06672303921568,102.74640060121514
+290,GradientBoosting_High_200,GradientBoostingRegressor(),52.53351065857856,74.95233192071728,68.29953123723706,113.6011799179196
+291,SVR_High_200,SVR(),3718.4372277897355,5588.832562162495,3705.126684813482,5459.840535301141
+292,KNN_High_200,KNeighborsRegressor(),36.99802834817372,58.58828775588247,49.88004901960784,82.57649141737565
+293,XGBoost_High_200,"XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             feature_weights=None, gamma=None, grow_policy=None,
+             importance_type=None, interaction_constraints=None,
+             learning_rate=None, max_bin=None, max_cat_threshold=None,
+             max_cat_to_onehot=None, max_delta_step=None, max_depth=None,
+             max_leaves=None, min_child_weight=None, missing=nan,
+             monotone_constraints=None, multi_strategy=None, n_estimators=None,
+             n_jobs=None, num_parallel_tree=None, ...)",25.78721255469317,35.17820322270438,66.79573677412046,119.98766824940463
+294,LightGBM_High_200,LGBMRegressor(verbosity=0),39.381360621834354,56.54730436308091,58.049971256606035,100.6209163759594
+295,RNN_High_200,"<Sequential name=sequential_88, built=True>",7743.076660121866,9963.957440789723,7628.876507249221,9824.002714027594
+296,LSTM_High_200,"<Sequential name=sequential_89, built=True>",7974.481477093371,10144.829546509003,7860.2813243691435,10004.763617432835
+297,GRU_High_200,"<Sequential name=sequential_90, built=True>",7931.976882900186,10111.452367894923,7817.776730027541,9971.40439270831
+298,Bidirectional_LSTM_High_200,"<Sequential name=sequential_91, built=True>",7902.693389858194,10088.497139388664,7788.493236985549,9948.462165829054
+299,LinearRegression_High_250,LinearRegression(),52.09095132480673,82.0317690146097,54.92950155436678,86.85512852431079
+300,Ridge_High_250,Ridge(),52.09095114792477,82.03176901460976,54.92950109866593,86.8551279274812
+301,Lasso_High_250,Lasso(),221.8375834039797,330.2327983871694,218.64525846194854,338.86349342988393
+302,RandomForest_High_250,RandomForestRegressor(),20.972952913154952,34.37503988034853,54.92697611202654,87.20947596957319
+303,GradientBoosting_High_250,GradientBoostingRegressor(),54.15166890095673,77.58155862096962,66.81609024561365,97.71511366255723
+304,SVR_High_250,SVR(),3747.618123147492,5610.745426576044,3511.8706840537184,5247.699333246338
+305,KNN_High_250,KNeighborsRegressor(),37.83167460608281,60.10783115791049,49.066441515650794,73.10791845748425
+306,XGBoost_High_250,"XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             feature_weights=None, gamma=None, grow_policy=None,
+             importance_type=None, interaction_constraints=None,
+             learning_rate=None, max_bin=None, max_cat_threshold=None,
+             max_cat_to_onehot=None, max_delta_step=None, max_depth=None,
+             max_leaves=None, min_child_weight=None, missing=nan,
+             monotone_constraints=None, multi_strategy=None, n_estimators=None,
+             n_jobs=None, num_parallel_tree=None, ...)",25.726794420174524,34.661821030885434,64.30230747078353,97.26405288244584
+307,LightGBM_High_250,LGBMRegressor(verbosity=0),39.320694360448165,56.00445119597962,59.88077461188591,90.37678444071186
+308,RNN_High_250,"<Sequential name=sequential_92, built=True>",7834.260442757389,10041.716966929622,7387.9486732043,9533.845955493838
+309,LSTM_High_250,"<Sequential name=sequential_93, built=True>",8083.152627447177,10237.079628024121,7636.840858044695,9727.989070213798
+310,GRU_High_250,"<Sequential name=sequential_94, built=True>",7977.279241585514,10153.690317180262,7530.967472032425,9645.097416304074
+311,Bidirectional_LSTM_High_250,"<Sequential name=sequential_95, built=True>",8012.1127692955415,10181.080196693807,7565.800999724688,9672.32019003086
+312,LinearRegression_Low_30,LinearRegression(),59.031255495374175,101.18701848252172,57.193823522865635,97.28603628043864
+313,Ridge_Low_30,Ridge(),59.031255574363186,101.18701848252171,57.19382346505478,97.28603584072259
+314,Lasso_Low_30,Lasso(),120.31484557330333,188.96596014253862,115.65984951453449,188.5119165146642
+315,RandomForest_Low_30,RandomForestRegressor(),23.964877475247608,41.2789028301294,62.00778616852154,105.90262676677567
+316,GradientBoosting_Low_30,GradientBoostingRegressor(),59.14558998291797,88.6612220329275,69.44873410701949,107.40520145967064
+317,SVR_Low_30,SVR(),3616.020200123382,5492.25252320954,3510.9976711381837,5321.469615787352
+318,KNN_Low_30,KNeighborsRegressor(),51.411734441301284,87.11144582257349,66.41411764705884,111.48081070090493
+319,XGBoost_Low_30,"XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             feature_weights=None, gamma=None, grow_policy=None,
+             importance_type=None, interaction_constraints=None,
+             learning_rate=None, max_bin=None, max_cat_threshold=None,
+             max_cat_to_onehot=None, max_delta_step=None, max_depth=None,
+             max_leaves=None, min_child_weight=None, missing=nan,
+             monotone_constraints=None, multi_strategy=None, n_estimators=None,
+             n_jobs=None, num_parallel_tree=None, ...)",33.68568981769568,47.421237510428526,70.7571521170757,116.7001161306496
+320,LightGBM_Low_30,LGBMRegressor(verbosity=0),51.80347089427422,78.08868893194501,65.14130264967858,103.5460939838028
+321,RNN_Low_30,"<Sequential name=sequential_96, built=True>",7492.672804949813,9737.97876947416,6974.896538316881,9310.700736854073
+322,LSTM_Low_30,"<Sequential name=sequential_97, built=True>",7748.287553191017,9935.997420004263,7230.511286836511,9503.69717160164
+323,GRU_Low_30,"<Sequential name=sequential_98, built=True>",7614.229018245087,9831.814089787598,7096.452751647269,9402.106580336922
+324,Bidirectional_LSTM_Low_30,"<Sequential name=sequential_99, built=True>",7639.65928558177,9851.52164660877,7121.883019005512,9421.315419183496
+325,LinearRegression_Low_45,LinearRegression(),58.96289947191009,100.33671016968773,60.87212064753511,103.7397478624426
+326,Ridge_Low_45,Ridge(),58.96289953409166,100.33671016968776,60.87212075404018,103.73974787710372
+327,Lasso_Low_45,Lasso(),132.5744526421875,208.90783387961403,127.73435488186189,198.84760170257718
+328,RandomForest_Low_45,RandomForestRegressor(),23.484706539075045,39.793459212998016,64.57578628389123,107.19004888773067
+329,GradientBoosting_Low_45,GradientBoostingRegressor(),58.822519932594524,87.4508349652395,73.34811125361114,114.24079970294187
+330,SVR_Low_45,SVR(),3597.6549304615855,5477.338921429518,3788.4575330736784,5710.447763249414
+331,KNN_Low_45,KNeighborsRegressor(),45.58908027644871,77.2201701186457,64.19406698564588,106.36329277715461
+332,XGBoost_Low_45,"XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             feature_weights=None, gamma=None, grow_policy=None,
+             importance_type=None, interaction_constraints=None,
+             learning_rate=None, max_bin=None, max_cat_threshold=None,
+             max_cat_to_onehot=None, max_delta_step=None, max_depth=None,
+             max_leaves=None, min_child_weight=None, missing=nan,
+             monotone_constraints=None, multi_strategy=None, n_estimators=None,
+             n_jobs=None, num_parallel_tree=None, ...)",31.908177769938284,44.0898451984449,70.31454937948563,115.5664712613238
+333,LightGBM_Low_45,LGBMRegressor(verbosity=0),49.31214424744935,74.30085311859207,68.93519146761633,110.47800575135743
+334,RNN_Low_45,"<Sequential name=sequential_100, built=True>",7447.0827133403145,9687.191216627276,7578.666569282983,9923.812281883536
+335,LSTM_Low_45,"<Sequential name=sequential_101, built=True>",7679.030250772127,9866.617366435457,7810.614106743188,10102.057013094613
+336,GRU_Low_45,"<Sequential name=sequential_102, built=True>",7605.413844308239,9809.431811861363,7736.9977003131,10045.247465925377
+337,Bidirectional_LSTM_Low_45,"<Sequential name=sequential_103, built=True>",7573.731822830029,9784.8886781751,7705.315679045804,10020.865877730044
+338,LinearRegression_Low_60,LinearRegression(),59.035584190279295,100.03569847474266,61.4444385673408,106.48900939882364
+339,Ridge_Low_60,Ridge(),59.0355842735915,100.03569847474267,61.444438706190994,106.48900981100248
+340,Lasso_Low_60,Lasso(),146.81721773313976,228.62745645991563,128.82834693542077,199.1780370254256
+341,RandomForest_Low_60,RandomForestRegressor(),23.371731746313852,39.62513868195126,64.38982827476062,107.62377059419823
+342,GradientBoosting_Low_60,GradientBoostingRegressor(),58.846788010274054,87.42808537151289,74.02849534068939,116.64733888734837
+343,SVR_Low_60,SVR(),3643.9867520933904,5525.676771253851,3469.462284038544,5159.520192817972
+344,KNN_Low_60,KNeighborsRegressor(),43.675308225262036,73.02237362623103,60.84715654952081,98.71626609153283
+345,XGBoost_Low_60,"XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             feature_weights=None, gamma=None, grow_policy=None,
+             importance_type=None, interaction_constraints=None,
+             learning_rate=None, max_bin=None, max_cat_threshold=None,
+             max_cat_to_onehot=None, max_delta_step=None, max_depth=None,
+             max_leaves=None, min_child_weight=None, missing=nan,
+             monotone_constraints=None, multi_strategy=None, n_estimators=None,
+             n_jobs=None, num_parallel_tree=None, ...)",30.72242253381971,43.08158731577793,72.68460851309779,122.57785612220613
+346,LightGBM_Low_60,LGBMRegressor(verbosity=0),48.26561339762942,72.3061279498934,68.9526579023794,112.14378150079561
+347,RNN_Low_60,"<Sequential name=sequential_104, built=True>",7521.395744881332,9771.271145532499,7042.374618861773,9259.079920224367
+348,LSTM_Low_60,"<Sequential name=sequential_105, built=True>",7770.670630816936,9964.420099366187,7291.649504606106,9450.062074488897
+349,GRU_Low_60,"<Sequential name=sequential_106, built=True>",7667.870841748754,9884.462003809505,7188.849715713646,9370.970117435636
+350,Bidirectional_LSTM_Low_60,"<Sequential name=sequential_107, built=True>",7674.91846309302,9889.930196544423,7195.897336712432,9376.377723236048
+351,LinearRegression_Low_90,LinearRegression(),59.89233611158986,100.92690113037949,58.22306916682447,90.58502023581674
+352,Ridge_Low_90,Ridge(),59.89233613451671,100.92690113037956,58.22306893964706,90.58502003876116
+353,Lasso_Low_90,Lasso(),158.6254299535452,244.53213265126692,151.46406594737627,221.56353180789822
+354,RandomForest_Low_90,RandomForestRegressor(),23.79480399857191,40.91895161604359,58.00308346709485,93.00055800623952
+355,GradientBoosting_Low_90,GradientBoostingRegressor(),59.80564879647035,89.21505619209184,68.05359981892701,102.09917840536424
+356,SVR_Low_90,SVR(),3645.3964255742717,5515.7730806540685,3541.9789632452,5346.6765090975205
+357,KNN_Low_90,KNeighborsRegressor(),43.06044269903607,72.11436343996957,58.54810593900482,92.85530266098564
+358,XGBoost_Low_90,"XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             feature_weights=None, gamma=None, grow_policy=None,
+             importance_type=None, interaction_constraints=None,
+             learning_rate=None, max_bin=None, max_cat_threshold=None,
+             max_cat_to_onehot=None, max_delta_step=None, max_depth=None,
+             max_leaves=None, min_child_weight=None, missing=nan,
+             monotone_constraints=None, multi_strategy=None, n_estimators=None,
+             n_jobs=None, num_parallel_tree=None, ...)",28.93604890168969,40.099225634064254,72.85896082307134,121.13895910395031
+359,LightGBM_Low_90,LGBMRegressor(verbosity=0),46.233786070669126,69.11180731230627,65.26006694826759,103.30047551554668
+360,RNN_Low_90,"<Sequential name=sequential_108, built=True>",7535.035129112127,9773.484856422718,7242.107589030993,9488.6938133401
+361,LSTM_Low_90,"<Sequential name=sequential_109, built=True>",7767.950732779785,9954.160458232811,7475.02319269318,9667.634647792149
+362,GRU_Low_90,"<Sequential name=sequential_110, built=True>",7700.6430545653,9901.72486464159,7407.715514495017,9615.687031889729
+363,Bidirectional_LSTM_Low_90,"<Sequential name=sequential_111, built=True>",7702.583363015973,9903.233931103541,7409.655822993932,9617.181882196506
+364,LinearRegression_Low_120,LinearRegression(),59.6161338222843,99.88615257545612,60.1999427466171,95.74771832793908
+365,Ridge_Low_120,Ridge(),59.61613381920283,99.8861525754561,60.19994265511773,95.74771812660279
+366,Lasso_Low_120,Lasso(),165.15014568786864,247.60152770705645,156.76376380171578,255.07674870163365
+367,RandomForest_Low_120,RandomForestRegressor(),23.58048044843072,40.44704755515215,58.923077419354755,94.90004727373991
+368,GradientBoosting_Low_120,GradientBoostingRegressor(),59.62448418851917,88.11184464905621,69.28636424079133,107.85806468000223
+369,SVR_Low_120,SVR(),3651.8129870360176,5513.485611669746,3624.3854711634594,5431.789314622448
+370,KNN_Low_120,KNeighborsRegressor(),43.74490044843052,73.07919818788899,57.77080645161289,92.33080979335539
+371,XGBoost_Low_120,"XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             feature_weights=None, gamma=None, grow_policy=None,
+             importance_type=None, interaction_constraints=None,
+             learning_rate=None, max_bin=None, max_cat_threshold=None,
+             max_cat_to_onehot=None, max_delta_step=None, max_depth=None,
+             max_leaves=None, min_child_weight=None, missing=nan,
+             monotone_constraints=None, multi_strategy=None, n_estimators=None,
+             n_jobs=None, num_parallel_tree=None, ...)",28.217232901397853,39.23279991910052,68.08027855657762,109.2373562454957
+372,LightGBM_Low_120,LGBMRegressor(verbosity=0),46.160125947162726,68.60952546856974,64.82690483625356,100.63627539001058
+373,RNN_Low_120,"<Sequential name=sequential_112, built=True>",7572.206060163696,9794.94730627649,7248.224835008191,9550.066034280155
+374,LSTM_Low_120,"<Sequential name=sequential_113, built=True>",7812.673605088854,9982.01166948109,7488.692380117601,9733.833343393007
+375,GRU_Low_120,"<Sequential name=sequential_114, built=True>",7751.060186553544,9933.862397127828,7427.078961353917,9686.511234374291
+376,Bidirectional_LSTM_Low_120,"<Sequential name=sequential_115, built=True>",7713.860296061015,9904.863895153076,7389.879070946478,9658.01794791226
+377,LinearRegression_Low_150,LinearRegression(),59.62716367341002,98.47585237792146,65.39045428633968,105.69614028400068
+378,Ridge_Low_150,Ridge(),59.62716370216701,98.47585237792151,65.39045423131002,105.69614035737008
+379,Lasso_Low_150,Lasso(),163.238403375836,246.99064478176612,163.43732311142384,249.73322767619183
+380,RandomForest_Low_150,RandomForestRegressor(),23.459753785147765,39.96548066751449,67.4685583468394,118.90917245320134
+381,GradientBoosting_Low_150,GradientBoostingRegressor(),59.12713140929498,87.04081278859579,78.2933548285965,122.69230661535498
+382,SVR_Low_150,SVR(),3680.1536235396534,5546.417457373807,3486.1139956275633,5180.60577556026
+383,KNN_Low_150,KNeighborsRegressor(),43.249951333814,71.73222610505199,59.76463533225286,102.106289526052
+384,XGBoost_Low_150,"XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             feature_weights=None, gamma=None, grow_policy=None,
+             importance_type=None, interaction_constraints=None,
+             learning_rate=None, max_bin=None, max_cat_threshold=None,
+             max_cat_to_onehot=None, max_delta_step=None, max_depth=None,
+             max_leaves=None, min_child_weight=None, missing=nan,
+             monotone_constraints=None, multi_strategy=None, n_estimators=None,
+             n_jobs=None, num_parallel_tree=None, ...)",29.166880491403866,39.84584652047778,74.78908129526691,119.66084822255691
+385,LightGBM_Low_150,LGBMRegressor(verbosity=0),44.56978581387534,66.53265103660921,67.62956071694104,111.00107586296018
+386,RNN_Low_150,"<Sequential name=sequential_116, built=True>",7615.600880380422,9843.629212071253,7206.701900419115,9365.485097883666
+387,LSTM_Low_150,"<Sequential name=sequential_117, built=True>",7855.377965778881,10030.28525348304,7446.478986253538,9551.220241965462
+388,GRU_Low_150,"<Sequential name=sequential_118, built=True>",7751.473957574976,9949.120956810824,7342.57497771277,9470.43642826616
+389,Bidirectional_LSTM_Low_150,"<Sequential name=sequential_119, built=True>",7797.834141351304,9985.283000169606,7388.935161502783,9506.425282850629
+390,LinearRegression_Low_200,LinearRegression(),59.66622869360601,95.90971001172966,61.01775108369498,125.19109050044821
+391,Ridge_Low_200,Ridge(),59.66622871920958,95.90971001172973,61.01775100970324,125.19109044262325
+392,Lasso_Low_200,Lasso(),163.68092809848693,243.32778742593803,171.59856001873683,261.9800485453496
+393,RandomForest_Low_200,RandomForestRegressor(),24.00750808649839,39.91017656505353,64.17609068627432,130.39117023931422
+394,GradientBoosting_Low_200,GradientBoostingRegressor(),59.761664952257995,86.7181743093184,74.92778526890346,136.76501878427763
+395,SVR_Low_200,SVR(),3679.366349587445,5535.194666808769,3657.928267997265,5390.989998879385
+396,KNN_Low_200,KNeighborsRegressor(),43.384550245320746,70.45363805259774,57.580065359477175,106.93276916780667
+397,XGBoost_Low_200,"XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             feature_weights=None, gamma=None, grow_policy=None,
+             importance_type=None, interaction_constraints=None,
+             learning_rate=None, max_bin=None, max_cat_threshold=None,
+             max_cat_to_onehot=None, max_delta_step=None, max_depth=None,
+             max_leaves=None, min_child_weight=None, missing=nan,
+             monotone_constraints=None, multi_strategy=None, n_estimators=None,
+             n_jobs=None, num_parallel_tree=None, ...)",27.722039611916227,37.65857579123798,79.96985830668528,160.37826096194703
+398,LightGBM_Low_200,LGBMRegressor(verbosity=0),43.76927683148194,63.63814389868958,67.43513248207091,135.5643924448575
+399,RNN_Low_200,"<Sequential name=sequential_120, built=True>",7638.0027874233465,9849.58378598719,7519.24038959578,9697.404142748512
+400,LSTM_Low_200,"<Sequential name=sequential_121, built=True>",7860.677744759739,10023.246419329116,7741.915346983366,9871.065003816018
+401,GRU_Low_200,"<Sequential name=sequential_122, built=True>",7768.939234944004,9951.46376205209,7650.176837213055,9799.279397247123
+402,Bidirectional_LSTM_Low_200,"<Sequential name=sequential_123, built=True>",7805.198652886002,9979.79659795949,7686.436255526075,9827.612798895132
+403,LinearRegression_Low_250,LinearRegression(),60.058397323051985,97.60934705143417,65.40444978744307,105.72596334148224
+404,Ridge_Low_250,Ridge(),60.058397266044075,97.60934705143424,65.40444954481632,105.7259629013225
+405,Lasso_Low_250,Lasso(),220.36422663588334,330.0205631855661,223.64383836138478,341.92920504922455
+406,RandomForest_Low_250,RandomForestRegressor(),23.94427116159765,40.64837781321996,62.03549752883017,101.63597822991223
+407,GradientBoosting_Low_250,GradientBoostingRegressor(),60.43021697216341,88.83055642228499,74.15535149303318,115.03450319031418
+408,SVR_Low_250,SVR(),3706.9613714078337,5555.012188884569,3475.083345781807,5193.806622141933
+409,KNN_Low_250,KNeighborsRegressor(),44.3428600219861,73.44428228143501,58.32912685337722,91.2027072219506
+410,XGBoost_Low_250,"XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             feature_weights=None, gamma=None, grow_policy=None,
+             importance_type=None, interaction_constraints=None,
+             learning_rate=None, max_bin=None, max_cat_threshold=None,
+             max_cat_to_onehot=None, max_delta_step=None, max_depth=None,
+             max_leaves=None, min_child_weight=None, missing=nan,
+             monotone_constraints=None, multi_strategy=None, n_estimators=None,
+             n_jobs=None, num_parallel_tree=None, ...)",27.363878218111612,37.2692634482414,74.05823256667013,117.23442089447374
+411,LightGBM_Low_250,LGBMRegressor(verbosity=0),43.91417786738517,64.46580665658227,65.90299856072174,102.68006519697124
+412,RNN_Low_250,"<Sequential name=sequential_124, built=True>",7728.354792988611,9925.783144928462,7286.653591421212,9422.547409103572
+413,LSTM_Low_250,"<Sequential name=sequential_125, built=True>",7950.16176274133,10099.444305139054,7508.460561304233,9595.105997347753
+414,GRU_Low_250,"<Sequential name=sequential_126, built=True>",7898.897624409509,10059.139471880191,7457.19642284211,9555.043568936875
+415,Bidirectional_LSTM_Low_250,"<Sequential name=sequential_127, built=True>",7842.440642587027,10014.867868136615,7400.739441088907,9511.047436653747
